@@ -1,0 +1,30 @@
+/* Setting up the background and various container - there is a simpler way to do this, but i'm too lazy */
+body {
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: lightcoral;
+    margin: 2% 10% 10% 10%;
+    padding: 1%;
+    height: 75%;
+}
+
+.containerInternal {
+    background-color: white;
+    outline: 1px solid black;
+    padding: 3%;
+    height: inherit;
+}
+
+/* Class for putting stuff in a aestheticall pleasing way */
+
+.nonStacking {
+    width: 100%;
+    display: block;
+}
+
+a {
+    color: chocolate;
+}
