@@ -19,7 +19,6 @@ body {
     outline: 1px solid black;
     padding: 3%;
     width: inherit;
-    margin: auto;
 }
 
 /* Class for putting stuff in a aestheticall pleasing way */
@@ -34,4 +33,8 @@ body {
 
 a {
     color: chocolate;
+}
+
+.noTextCenter {
+    text-align: left;
 }
