@@ -9,20 +9,27 @@ body {
     margin: 2% 10% 10% 10%;
     padding: 1%;
     height: 75%;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
 }
 
 .containerInternal {
     background-color: white;
     outline: 1px solid black;
     padding: 3%;
-    height: inherit;
+    width: inherit;
+    margin: auto;
 }
 
 /* Class for putting stuff in a aestheticall pleasing way */
 
 .nonStacking {
-    width: 100%;
-    display: block;
+    width: 25%;
+    margin: 0% 1%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
 }
 
 a {
